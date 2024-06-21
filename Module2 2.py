@@ -1,7 +1,7 @@
 # Домашняя работа по уроку "Условная конструкция. Операторы if, elif, else."
 
 # Принимаем 3 числа
-first, second, third = input("Введите 3 числа подряд без пробелов: ")
+first, second, third = map(int, input("Введите 3 числа через запятую: ").split(','))
 
 if first == second and first == third: # проверяем равенство всех чисел
     print(3)
